@@ -1,11 +1,36 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/blueColor</item>
+        <item name="colorPrimaryDark">@color/blueColor</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EditTexts">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/whiteColor</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@drawable/edittext_background</item>
+    </style>
+
+    <style name="Buttons">
+        <item name="android:background">@drawable/login_button</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/whiteColor</item>
+    </style>
+
+    <style name="ButtonGoogle">
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:drawableStart">@drawable/ic_google_filled</item>
+        <item name="android:textColor">@color/whiteColor</item>
+        <item name="android:text">@string/connect_with_google</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
     </style>
 
 </resources>

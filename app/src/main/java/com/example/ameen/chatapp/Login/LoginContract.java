@@ -2,21 +2,19 @@ package com.example.ameen.chatapp.Login;
 
 import android.content.Intent;
 
+import com.example.ameen.chatapp.Base.BaseInterface;
+
 public interface LoginContract {
 
-    interface View {
+    interface View extends BaseInterface.View {
 
         void setProgressIndicator(boolean active);
-
-        void initViews();
-
-        void updateText(String text);
 
         void showGoogleAccounts(Intent intent, final int requestCode);
     }
 
 
-    interface Presenter {
+    interface Presenter extends BaseInterface.Presenter {
 
         void userGoogleSignIn();
 
@@ -24,7 +22,9 @@ public interface LoginContract {
 
         void isUserSignedIn();
 
-        void startFirebase();
+        //void startFirebase();
+
+        void userEmailLogin(String username, String password);
 
     }
 }

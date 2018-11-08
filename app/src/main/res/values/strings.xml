@@ -2,4 +2,18 @@
     <string name="app_name">ChatApp</string>
     
     <string name="client_id">438601246333-1ee0ttfc7r0qsso5saseomr3oep46ocu.apps.googleusercontent.com</string>
+
+    <string name="e_mail_address_hint">E-mail address</string>
+    <string name="password_hint">Password</string>
+    <string name="login_now">Login now</string>
+    <string name="dont_you_remember_your_password">Dont you remember your password?</string>
+    <string name="connect_with_google">Connect with Google</string>
+    <string name="dont_have_an_account_sign_up">Dont have an account? <b>Sign Up</b></string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="i_accept_terms_and_condition_privacy_policy">
+        I Accept <b><i>Terms and Condition, Privacy Policy</i></b>.
+    </string>
+    <string name="signup">Signup</string>
+    <string name="already_have_an_account_login">Already Have an account? <b>Login</b></string>
+
 </resources>
